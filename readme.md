@@ -1,18 +1,20 @@
 ##Usage
-
+terminal:
 ```
 composer require greabock/console
 ```
 
-at `config/app.php` add to providers
+`rootProject/config/app.php`:
  
 ```php
 Greabock\Console\ServiceProvider::class,
 ```
 
+terminal:
 ```
 php artisan vendor:publish --tag=greabock/console
 ```
 
-go to `http://your.site/console`;
+browser:
+`http://<your domain>/console`;
 
