@@ -1,20 +1,20 @@
 ##Usage
-terminal:
+####terminal:   
 ```
 composer require greabock/console
 ```
 
-`rootProject/config/app.php`:
+####rootProject/config/app.php:
  
 ```php
 Greabock\Console\ServiceProvider::class,
 ```
 
-terminal:
+####terminal:   
 ```
 php artisan vendor:publish --tag=greabock/console
 ```
 
-browser:
+####browser:   
 `http://<your domain>/console`;
 
