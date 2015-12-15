@@ -12,6 +12,13 @@
             "email": "greabock@gmail.com"
         }
     ],
+    
+    "autoload": {
+        "psr-4": {
+            "Greabock\\Console\\": "src/"
+        }
+    },
+    
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
